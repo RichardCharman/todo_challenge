@@ -1,0 +1,16 @@
+<div id="title">What needs to be done?</div>
+  <% if @tasks.any? %>
+    <ul>
+      <% @tasks.each do |task| %>
+        <div id="main">
+            <input type="checkbox" onclick="edit_task_path(task)" >
+            <%= task.name %> -
+            <%= link_to "Edit", edit_task_path(task) %> -
+            <%= link_to "Delete", task_path(task), method: :delete %>
+        </div>
+      <% end %>
+    </ul>
+  <% else %>
+    <div>Hooray! No tasks to do</div>
+  <% end %>
+<div id="add_task"><a href="tasks/new">Add a task</a></div>

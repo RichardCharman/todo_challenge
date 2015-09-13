@@ -1,0 +1,43 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	width:100%;
+  text-align:left;
+	padding:0px;
+	border:0px;
+	background-color:#ffffff;
+}
+#content {
+  margin:0px auto;
+  text-align:center;
+  width: 420px;
+  border: 1px solid #000000;
+}
+#title {
+  text-align:left;
+  width: 400px;
+  font-size: 40px;
+  border-bottom: 3px solid #000000;
+  padding: 10px;
+}
+#add_task {
+  text-align:center;
+  width: 400px;
+  font-size: 26px;
+  border-top: 3px solid #000000;
+  padding: 10px;
+}
+#main {
+  text-align:left;
+  width: 400px;
+  font-size: 20px;
+  padding: 10px;
+}
+#message {
+  text-align:center;
+  width: 400px;
+  font-size: 30px;
+  color: #ff0000;
+  padding: 10px;
+}
