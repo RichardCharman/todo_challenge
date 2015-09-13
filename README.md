@@ -1,7 +1,7 @@
 To Do List
 -------
 
-![alt text](public_folder/images/todolist.jpg "To Do List screen shot")
+![alt text](public/images/todolist.jpg "To Do List screen shot")
 
 # Todo Challenge
 
